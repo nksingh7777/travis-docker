@@ -2,6 +2,6 @@ services:
   npm-react:
     build: .
     ports:
-      - "8080:8080"
+      - "3000:3000"
   redis:
     image: 'redis'
